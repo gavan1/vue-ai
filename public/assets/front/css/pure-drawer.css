@@ -1,0 +1,204 @@
+
+
+/**************
+## Container ##
+**************/
+.pure-container {
+  position: relative;
+  height: 100%;
+  -webkit-overflow-scrolling: touch;
+}
+
+/************
+## Toggler ##
+************/
+.pure-toggle {
+  left: -9999px;
+  position: absolute;
+  top: -9999px;
+}
+
+.pure-toggle-label:active {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.pure-toggle-label .pure-toggle-icon,
+.pure-toggle-label .pure-toggle-icon:before,
+.pure-toggle-label .pure-toggle-icon:after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 4px;
+  width: 35px;
+  cursor: pointer;
+  background: #5d809d;
+  display: block;
+  content: '';
+  -webkit-transition: all 500ms ease-in-out;
+          transition: all 500ms ease-in-out;
+}
+
+.pure-toggle-label .pure-toggle-icon {
+  transform: translate3d(-50%, -4px, 0);
+  -webkit-transform: translate3d(-50%, -4px, 0);
+}
+
+.pure-toggle-label .pure-toggle-icon:before {
+  transform: translate3d(-50%, -14px, 0);
+  -webkit-transform: translate3d(-50%, -14px, 0);
+}
+
+.pure-toggle-label .pure-toggle-icon:after {
+  transform: translate3d(-50%, 10px, 0);
+  -webkit-transform: translate3d(-50%, 10px, 0);
+}
+
+/*
+.pure-toggle.menu:checked ~ .pure-toggle-label.search,
+.pure-toggle.search:checked ~ .pure-toggle-label.menu {
+*/
+.bottun-hidden {
+  opacity: 0;
+  z-index: -1;
+}
+
+/***********
+## Drawer ##
+***********/
+.pure-drawer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  height: 100%;
+  visibility: hidden;
+  background-color: #FFFFFF;
+  overflow-y:scroll;
+  -webkit-transition-property: all;
+          transition-property: all;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+  -webkit-transition-timing-function: ease-out;
+          transition-timing-function: ease-out;
+}
+
+.pure-drawer.search {
+  left: auto;
+  right: 0;
+}
+
+/*********************
+## Pusher Container ##
+*********************/
+.pure-pusher-container {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+
+/***********
+## Pusher ##
+***********/
+.pure-pusher {
+  position: relative;
+  height: 100%;
+  overflow-y: auto;
+  left: 0;
+  z-index: 2;
+  background-color: #fff;
+  -webkit-transition-property: -webkit-transform;
+          transition-property: transform;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+  -webkit-transition-timing-function: ease-out;
+          transition-timing-function: ease-out;
+}
+
+/*******************
+## Pusher Overlay ##
+*******************/
+.pure-overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  -webkit-transition-property: opacity;
+          transition-property: opacity;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+  -webkit-transition-delay: 500ms;
+          transition-delay: 500ms;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+}
+/*
+.pure-toggle.menu:checked ~ .pure-overlay.menu {
+  left: 90%;
+}
+
+.pure-toggle.search:checked ~ .pure-overlay.search {
+  right: 90%;
+}
+
+.pure-toggle.menu:checked ~ .pure-overlay.menu,
+.pure-toggle.search:checked ~ .pure-overlay.search {
+*/
+.overlay-visible {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  z-index: 2;
+}
+
+/********************************
+## Fallback for older browsers ##
+********************************/
+.no-csstransforms3d .pure-toggle.menu:checked ~ .pure-pusher-container .pure-pusher {
+  left: 90%;
+}
+
+.no-csstransforms3d .pure-toggle.search:checked ~ .pure-pusher-container .pure-pusher {
+  left: -90%;
+}
+
+
+/*****************************
+## Effect - Slide in on top ##
+*****************************/
+/* DRAWER */
+.pure-drawer {
+  z-index: 3;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+}
+
+.pure-drawer.menu {
+  -webkit-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0);
+}
+
+.pure-drawer.search {
+  -webkit-transform: translate3d(100%, 0, 0);
+  transform: translate3d(100%, 0, 0);
+}
+/*
+.pure-toggle.menu:checked ~ .pure-drawer.menu,
+.pure-toggle.search:checked ~ .pure-drawer.search {
+*/
+.drawer-slide {
+  visibility: visible;
+  -webkit-transform: translate3d(0, 0, 0)!important;
+  transform: translate3d(0, 0, 0)!important;
+}
+
+/* OVERLAY */
+.pure-overlay {
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+  -webkit-transition-delay: 250ms;
+          transition-delay: 250ms;
+}

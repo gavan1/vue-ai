@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+.header-logoimg{
+	position:absolute;
+	top: 130px;
+	left: 45px;
+	width: 282px;
+	z-index: 13;
+}
+
+.header-logoimg img{
+	width:100%;
+}
+
+@media only screen and (max-width: 750px){
+	/* ヘッダーロゴ */
+	.header-logoimg{
+		position:absolute;
+		top: 38px;
+		left: 107px;
+		width:65%;
+	}
+
+	.header-logoimg img{
+		width:100%;
+		margin: 0;
+	}
+}

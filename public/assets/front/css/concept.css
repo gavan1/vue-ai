@@ -1,0 +1,97 @@
+@charset "utf-8";
+
+.conceptContents .row {
+	max-width: 1100px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+.conceptContents .row h2 {
+	font-weight: 400;
+	font-size: 26px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.conceptContents .row h3 {
+	font-weight: 400;
+	font-size: 19px;
+	margin-bottom: 30px;
+}
+.conceptContents img {
+	width: 100%;
+	padding-bottom: 40px;
+}
+.conceptContents span {
+	display: block;
+	font-size: 12px;
+	padding-bottom: 20px;
+	line-height: 175%;
+}
+
+.conceptContents .militarism ,
+.conceptContents .material {
+	margin-top: 40px;
+}
+.conceptContents .militarism .text {
+	width: 60%;
+	float: right;
+	padding-bottom: 50px;
+}
+
+.conceptContents .spec {
+	padding: 40px 140px 0;
+	position: relative;
+}
+.conceptContents .spec img {
+	max-width: 33%;
+	position: absolute;
+	top: -310px;
+	left: 20px;
+}
+.conceptContents .spec .text {
+	padding: 0;
+}
+.conceptContents .material .text {
+	padding: 0 25px;
+}
+.conceptContents .material h3 {
+	text-align: center;
+}
+.conceptContents .material img {
+	padding: 40px 140px;
+}
+
+@media only screen and (max-width: 40.063em){
+	/* small */
+	.conceptContents .row {
+		width: 100%;
+		padding: 0;
+	}
+	.conceptContents .militarism {
+		margin-top: 0;
+	}
+	.conceptContents .militarism .text {
+		width: 100%;
+		clear: both;
+		padding: 0 6.25% 0;
+	}
+
+	.conceptContents .spec {
+		padding: 40px 0 0;
+	}
+	.conceptContents .spec img {
+		max-width: 100%;
+		position: relative;
+		top: 0;
+		left: 0;
+	}
+	.conceptContents .spec .text,
+	.conceptContents .material .text {
+		padding: 0 6.25%;
+	}
+	.conceptContents .material h3 {
+		text-align: left;
+	}
+	.conceptContents .material img {
+		padding: 0 0 40px;
+	}
+}

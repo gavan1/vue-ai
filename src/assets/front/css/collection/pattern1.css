@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+.line1 .items .item,
+.line4 .items .item,
+.line7 .items > div:nth-of-type(4)
+{
+  width: 17.85vw !important;
+}
+.line2 .items .item,
+.line3 .items > div:nth-of-type(1),
+.line5 .items .item,
+.line6 .items > div:nth-of-type(1),
+.line7 .items > div:nth-of-type(1)
+{
+  width: 28.57vw !important;
+}
+.line3 .items > div:nth-of-type(4),
+.line6 .items > div:nth-of-type(3),
+.line8 .items .item
+{
+  width: 39.28vw !important;
+}
+
+@media only screen and (max-width: 750px) {
+  .line1 .items .item,
+  .line4 .items .item,
+  .line7 .items > div:nth-of-type(3)
+  {
+    width: 21.25vw !important;
+  }
+  .line2 .items .item,
+  .line3 .items > div:nth-of-type(1),
+  .line5 .items .item,
+  .line6 .items > div:nth-of-type(1),
+  .line7 .items > div:nth-of-type(1)
+  {
+    width: 33.75vw !important;
+  }
+  .line3 .items > div:nth-of-type(3),
+  .line6 .items > div:nth-of-type(2),
+  .line8 .items .item
+  {
+    width: 46.25vw !important;
+  }
+}

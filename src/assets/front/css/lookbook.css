@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+.lookbookBanner .row {
+	max-width: 100%;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.lookbookBanner .row img {
+	width: 100%;
+}
+.lookbookBanner .row h2 {
+	font-weight: 400;
+	font-size: 18px;
+	margin: 20px 0 10px;
+}
+
+.lookbookContents .row {
+	max-width: 980px;
+	margin-top: 55px;
+	padding: 0 10px;
+}
+.lookbookContents img {
+	width: 100%;
+	margin-bottom: 15px;
+}
+.lookbookContents li {
+	width: 100;
+	text-align: center;
+	margin-bottom: 25px;
+	font-size: 12px;
+}
+.lookbookContents .more {
+	display: block;
+	font-weight: 400;
+	font-size: 16px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+@media only screen and (max-width: 40.063em){
+	/* small */
+	.lookbookContents .row {
+		padding: 0 6.25%;
+	}
+}

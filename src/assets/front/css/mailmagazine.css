@@ -1,0 +1,325 @@
+@charset "utf-8";
+
+
+.mailmagazine.mainContents{
+	/*width: 80%;*/
+	margin: 0 auto 0 45px;
+	padding-bottom: 10%;
+	height: 100%;
+}
+
+.mailmagazine-title-box{
+	width: 30%;
+	float: left;
+}
+
+.mailmagazine-box{
+	width: 70%;
+	height: 800px;
+	float: left;
+	font-size: 12px;
+	font-size: 1.2rem;
+	letter-spacing: -0.05em;
+	padding: 20px;
+	background-color: #FFFFFF;
+}
+
+.mailmagazine-box .lead-text{
+	font-weight: bold;
+	color: #2A2A2A;
+}
+
+h2.title{
+	font-family:'futura', 'Century Gothic', Helvetica,"Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3","メイリオ",Meiryo,"ＭＳ Ｐゴシック",Arial,Verdana, sans-serif;
+	font-size:30px;
+	font-size:3.0rem;
+	margin-bottom:25px;
+	text-align: center;
+}
+
+.mainContents .mailmagazine-title-box h3 {
+    font-size: 30px;
+    font-size: 3.0rem;
+    font-family: Helvetica,'futura', 'Century Gothic', sans-serif;
+    text-align: left;
+    max-width: 400px;
+    margin-bottom: 50px;
+    font-weight: bold;
+	color: #000000;
+}
+
+.buttonArea {
+	padding: 0;
+}
+
+.link_to_privacy {
+	margin-top: 20px;
+}
+
+.link_to_privacy a {
+	text-decoration: underline;
+}
+
+.regmessageArea {
+	font-size: inherit;
+	margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 750px){
+
+	.mailmagazine.mainContents{
+		padding-top: 40%;
+		margin: 0 auto;
+	}
+	
+	.mailmagazine-title-box{
+		width: 100%;
+		float: left;
+	}
+
+	.mailmagazine-box{
+		width: 107%;
+		float: left;
+		margin: 0 -3.5%;
+		height: 500px;
+	}
+
+	.mainContents .mailmagazine-title-box h3 {
+		text-align: center;
+	}
+
+	.link_to_privacy {
+		text-align: center;
+	}
+}
+
+
+
+
+
+
+
+
+.title-box{
+	border-bottom:1px solid #000;
+	margin-bottom:35px;
+}
+
+.mainContents{
+	font-size:14px;
+	font-size:1.4rem;
+}
+h2.title{
+	font-family: 'HelveticaLTPro-Bold', 'futura', 'Century Gothic', sans-serif;
+	font-size:30px;
+	font-size:3.0rem;
+	margin-bottom:5px;
+}
+h2.title.mb{
+	margin-bottom:15px;
+}
+.subtitle{
+	font-size:16px;
+	font-size:1.6rem;
+	margin-bottom:20px;
+	display:block;
+	color:#7d7d7d;
+}
+.attention{
+	margin-bottom:20px;
+}
+.info-box{
+	margin-bottom:20px;
+}
+.formTableConfirm .inputRow .inputLabel.marginCell, .formTableConfirm .inputRow .inputColInner.marginCell {
+	padding-top: 7px;
+}
+p.margin{
+	margin-bottom:20px;
+}
+.intro-txt{
+	font-size:12px;
+	font-size:1.2rem;
+	padding:15px 0 10px;
+	clear:both;
+	color: #2A2A2A;
+}
+
+@media only screen and (max-width: 750px){
+	.title-box{
+		margin-bottom:25px;
+	}
+	h2.title{
+		padding:0 !important;
+		font-size:22px;
+		font-size:2.2rem;
+	}
+	h2.title.mb{
+		margin-bottom:10px;
+	}
+	.subtitle{
+		font-size:14px;
+		font-size:1.4rem;
+		margin:0 0 20px;
+		margin-bottom:15px;
+		padding:0 !important;
+	}
+	.formTable .inputRow .inputCol span.line.mail {
+		width: 100%;
+		margin-right: 0%;
+		display: block;
+	}
+}
+
+/* BUTTON
+-------------------------------*/
+
+.buttonArea{
+	clear:both;
+}
+.buttonArea.center{
+	text-align:center;
+}
+.buttonArea .row{
+	padding:0;
+}
+.buttonArea .mypage-btn{
+	width:250px;
+	float:left;
+	margin-right:10px;
+}
+.buttonArea .mypage-btn.last{
+	margin-right:0;
+}
+.buttonArea .form-btn{
+	width:250px;
+	display:inline-block;
+	font-size:0;
+	margin:0 5px;
+}
+.buttonArea .mypage-btn.single,
+.buttonArea .form-btn.single{
+	float:none;
+	margin:0 0 10px;
+}
+.buttonArea .form-btn.single{
+	margin:0 auto 10px;
+	display:block;
+}
+.buttonArea .backlink{
+	display:block;
+	border:1px solid #000;
+	background-color:#FFF;
+	text-align:center;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	height: inherit;
+	font-size: 16px;
+	font-size: 1.6rem;
+	padding: 12px 0;
+}
+
+/* button
+-------------------------------*/
+.button-200-30{
+    width: 200px !important;
+    height: 30px !important;
+    min-height: 30px !important;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 !important;
+    font-size: 12px !important;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.button-table-area{
+	display: table;
+	margin: 0 auto;
+}
+
+@media only screen and (max-width: 1024px){
+	.buttonArea .backlink{
+		font-size: 12px;
+		font-size: 1.2rem;
+	}
+}
+@media only screen and (max-width: 750px){
+	.buttonArea {
+		padding: 0px 0 15px;
+	}
+	.buttonArea .row{
+		margin:0;
+		width:100% !important;
+	}
+	.buttonArea .mypage-btn{
+		width:100%;
+		float:none;
+		margin: 0 0 10px;
+	}
+
+}
+
+/* Page Layout
+-------------------------------*/
+.pc-only {
+	display: inline;
+	float: none;
+}
+.sp-only {
+	display: none;
+}
+@media only screen and (max-width: 1254px){
+	.pc-only {
+		display: none;
+	}
+	.sp-only {
+		display: block;
+	}
+}
+.left-menu-wrap {
+	width: 350px;
+	float: left;
+	padding-left: 45px;
+}
+.right-main-wrap {
+	width: 860px;
+	float: left;
+}
+.right-main {
+	width: 100%;
+	float: left;
+	background-color: #FFFFFF;
+}
+.left-menu-title {
+	font-size: 30px;
+	font-weight: bold;
+	color: #000000;
+	letter-spacing: 0px;
+}
+.left-menu-list {
+	margin-top: 30px;
+}
+.mailmagazine-box .mypage-btn {
+	width: 200px;
+}
+.right-main .intro-txt {
+	padding: 0 0 10px;
+}
+.right-main .mailmagazine-box {
+	padding-left: 20px;
+	padding-top: 4px;
+}
+@media only screen and (max-width: 750px){
+	.mailmagazine-box .mypage-btn {
+		width: 100%;
+	}
+}
+@media only screen and (min-width: 1254px){
+	.mailmagazine.mainContents {
+	    margin: 0;
+	}
+}

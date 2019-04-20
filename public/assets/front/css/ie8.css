@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+p, div, ul, ol, li, dl, dt, dd, 
+blockquote, span, address, hr, pre{
+	margin:0;
+	padding:0;
+}
+
+.footer .toTop {
+	padding: 6px 0;
+}
+
+.footer .copyright .copyrightText {
+	font-size: 9px;
+}
+
+.pager ul.pagination li {
+	padding-top: 10px;
+	margin-right: 3px;
+}
+.pager ul.pagination li a,
+.pager ul.pagination li button {
+	padding: 1px 6px;
+}
+
+/** TOP */
+.topSlideWrapper .bx-wrapper .bx-viewport {
+	height: 478px;
+	overflow: hidden;
+}
+.newsSlideWrapper .bx-wrapper .bx-viewport {
+	height: 40px;
+	overflow: hidden;
+}
+.bannerSlideWrapper .bx-wrapper .bx-viewport {
+	height: 208px;
+	overflow: hidden;
+}
+.bannerSlideWrapper .bx-wrapper .bx-controls {
+	margin-top: 20px;
+}
+
+/** item list */
+.itemList .goodsList li.column_0,
+.itemList .goodsList li.column_4,
+.itemList .goodsList li.column_8 {
+	padding-left: 0;
+	padding-right: 15px;
+}
+.itemList .goodsList li.column_1,
+.itemList .goodsList li.column_5,
+.itemList .goodsList li.column_9 {
+	padding-left: 5px;
+	padding-right: 10px;
+}
+.itemList .goodsList li.column_2,
+.itemList .goodsList li.column_6,
+.itemList .goodsList li.column_10 {
+	padding-left: 10px;
+	padding-right: 5px;
+}
+.itemList .goodsList li.column_3,
+.itemList .goodsList li.column_7,
+.itemList .goodsList li.column_11 {
+	padding-left: 15px;
+	padding-right: 0;
+}
+
+.itemDetailWrapper .mainImage .bx-viewport {
+	min-height: 656px;
+}

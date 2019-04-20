@@ -1,0 +1,339 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 10899,
+      "max": [
+        6.6894001960754395,
+        15.294099807739258,
+        21.481899261474609
+      ],
+      "min": [
+        -3.5129001140594482,
+        -12.880599975585938,
+        0.15489999949932098
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 130788,
+      "componentType": 5126,
+      "count": 10899,
+      "max": [
+        0.99995744228363037,
+        0.99969977140426636,
+        0.99991393089294434
+      ],
+      "min": [
+        -0.99996852874755859,
+        -0.99993526935577393,
+        -0.99998331069946289
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 10899,
+      "max": [
+        0.999988853931427,
+        0.99999159574508667,
+        0.99571597576141357,
+        1
+      ],
+      "min": [
+        -0.99998551607131958,
+        -1,
+        -0.99975305795669556,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 10899,
+      "max": [
+        0.98640000820159912,
+        0.96410000324249268
+      ],
+      "min": [
+        0.01810000091791153,
+        0.0087000001221895218
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 59982,
+      "max": [
+        10898
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 261576,
+      "componentType": 5126,
+      "count": 1170,
+      "max": [
+        5.6820998191833496,
+        13.081100463867188,
+        2.3626999855041504
+      ],
+      "min": [
+        -3.2146000862121582,
+        2.8952999114990234,
+        0.96939998865127563
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 275616,
+      "componentType": 5126,
+      "count": 1170,
+      "max": [
+        0.99963277578353882,
+        0.99958235025405884,
+        1
+      ],
+      "min": [
+        -0.99998855590820312,
+        -0.99998807907104492,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 174384,
+      "componentType": 5126,
+      "count": 1170,
+      "max": [
+        0.88030064105987549,
+        0.99876230955123901,
+        1,
+        1
+      ],
+      "min": [
+        -0.99998807907104492,
+        -0.99999386072158813,
+        -0.93306213617324829,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 87192,
+      "componentType": 5126,
+      "count": 1170,
+      "max": [
+        0.97140002250671387,
+        0.99540001153945923
+      ],
+      "min": [
+        0.70850002765655518,
+        0.77310001850128174
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 239928,
+      "componentType": 5125,
+      "count": 4608,
+      "max": [
+        1169
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "JScN (https://sketchfab.com/juane3d)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/n-am-180-white-e8dc1cfa64dc41d9a81fdc4fc309f4ab",
+      "title": "N AM 180 WHITE"
+    },
+    "generator": "Sketchfab-4.94.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 258360,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96552,
+      "byteOffset": 258360,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 289656,
+      "byteOffset": 354912,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 193104,
+      "byteOffset": 644568,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 837672,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/material_0_baseColor.png"
+    },
+    {
+      "uri": "textures/material_0_metallicRoughness.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "name": "material_0",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "metallicRoughnessTexture": {
+          "index": 1,
+          "texCoord": 0
+        },
+        "roughnessFactor": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3,
+        4
+      ],
+      "name": "modeloUVbub.obj.cleaner.materialmerger.gles"
+    },
+    {
+      "mesh": 0,
+      "name": ""
+    },
+    {
+      "mesh": 1,
+      "name": ""
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}
+

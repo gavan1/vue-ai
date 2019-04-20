@@ -1,0 +1,131 @@
+/*
+ * jQuery FlexSlider v2.2.0
+ * http://www.woothemes.com/flexslider/
+ *
+ * Copyright 2012 WooThemes
+ * Free to use under the GPLv2 license.
+ * http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Contributing author: Tyler Smith (@mbmufffin)
+ */
+
+
+
+/******************/
+
+.flexslider {margin:0; padding:0;}
+.flexslider .slides > li {display:none; -webkit-backface-visibility:hidden;}
+.flexslider .slides img {width:100%; display:block;}
+.flex-pauseplay span {text-transform:capitalize;}
+
+.slides:after {content:""; display:block; clear:both; visibility:hidden; height:0;}
+.no-js .slides > li:first-child {display:block;}
+
+/******************/
+/******************/
+
+.flexslider {margin:0; position:relative;}
+.flex-viewport {max-height:2000px;
+	-webkit-transition:all 1s ease;
+	-moz-transition:all 1s ease;
+	-ms-transition:all 1s ease;
+	-o-transition:all 1s ease;
+	transition:all 1s ease;
+}
+.loading .flex-viewport {max-height:300px;}
+.carousel li {margin-right:5px;}
+
+/******************/
+/* Direction Nav **/
+.flex-direction-nav {height:0;}
+
+.flex-direction-nav a  {
+display:block;
+width:42px;
+height:81px;
+margin:-42px 0 0;
+position:absolute;
+top:50%;
+overflow:hidden;
+opacity:1;
+cursor:pointer;
+color:rgba(255,255,255,0);
+	-webkit-transition:all .3s ease;
+	-moz-transition:all .3s ease;
+	-ms-transition:all .3s ease;
+	-o-transition:all .3s ease;
+	transition:all .3s ease;
+z-index:5000;
+}
+/*.flex-direction-nav .flex-prev {left:-50px; }
+.flex-direction-nav .flex-next {right:-50px;}*/
+
+.flex-direction-nav .flex-prev {left:30px; }
+.flex-direction-nav .flex-next {right:30px;}
+.flex-direction-nav a.flex-prev {
+	background:url(../../../img/top/s_prev.png) no-repeat 0 0;
+	background-size:100% auto;
+	height: 60px;
+}
+.flex-direction-nav a.flex-next {
+	background:url(../../../img/top/s_next.png) no-repeat 0 0;
+	background-size:100% auto;
+	height: 60px;
+}
+.flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover {opacity:0.7;}
+.flex-direction-nav .flex-disabled {opacity:0; cursor:default;}
+.flex-direction-nav a:before {font-size:40px; display:inline-block; content:'';}
+
+/******************/
+/* Pause/Play *****/
+.flex-pauseplay a { display: block; width: 20px; height: 20px; position: absolute; bottom:5px; left:10px; opacity:1; z-index: 10; overflow: hidden; cursor: pointer; color: #000; }
+.flex-pauseplay a:before { font-size: 20px; display: inline-block;}
+.flex-pauseplay a:hover {opacity:1;}
+.flex-pauseplay a.flex-play:before {content:'\f003';}
+
+/* Control Nav */
+.flex-control-nav {width:100%; position:absolute; bottom:10px; text-align:center; margin-bottom:0px; z-index:5000}
+.flex-control-nav li {margin:0 7px; display:inline-block;}
+.flex-control-paging li a {width:6px; height:6px; display:block; background:rgba(255,255,255,0.5); cursor:pointer; text-indent:-9999px; border-radius:100px}
+.flex-control-paging li a:hover {background:rgba(255,255,255,1);}
+.flex-control-paging li a.flex-active {background:rgba(255,255,255,1); cursor:default;}
+
+.flex-control-thumbs {margin:5px 0 0; position:static; overflow:hidden;}
+.flex-control-thumbs li {width:25%; float:left; margin:0;}
+.flex-control-thumbs img {width:100%; display:block; opacity:1; cursor:pointer;}
+.flex-control-thumbs img:hover {opacity:1;}
+.flex-control-thumbs .flex-active {opacity:1; cursor:default;}
+
+
+/* end ************/
+/******************/
+/******************/
+
+
+@media only screen and (max-width: 1240px){
+.flex-direction-nav a  {
+	display:block;
+	width:30px;
+	height:60px;
+}
+.flex-direction-nav .flex-prev {left:20px; }
+.flex-direction-nav .flex-next {right:20px;}
+}
+
+@media only screen and (max-width: 750px){
+
+	.flex-direction-nav a  {
+		width:12px;
+		height:27px;
+		margin:0;
+		position:absolute;
+		bottom:10px;
+		top:inherit
+	}
+	.flex-direction-nav .flex-prev {left:3%; }
+	.flex-direction-nav .flex-next {right:3%;}
+	.flex-control-nav {bottom:15px;}
+	.flex-control-nav li {margin:0 10px; display:inline-block;}
+	.flex-control-paging li a {width:7px; height:7px;}
+
+}

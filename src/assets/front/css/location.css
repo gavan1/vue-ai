@@ -1,0 +1,191 @@
+@charset "utf-8";
+
+.locationContents .row {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0 10px 80px;
+}
+.locationContents h2 {
+	text-align: center;
+	margin-bottom: 40px;
+}
+.locationContents ul.menu {
+	float: left;
+	position: relative;
+	left: 50%;
+	margin-bottom: 60px;
+}
+.locationContents ul.menu li {
+	float: left;
+	position: relative;
+	border-top: none;
+	padding: 0 10px 10px 15px;
+	background: rgba(0, 0, 0, 0) url(../img/arrow/arrow_down.png) no-repeat scroll left 6px / 12px 8px;
+	left: -50%;
+}
+.locationContents ul.main {
+	float: left;
+	position: relative;
+	left: 50%;
+}
+.locationContents ul.main li {
+	float: left;
+	position: relative;
+	border-top: none;
+	padding: 0 20px 40px;
+	left: -50%;
+	width:325px;
+	text-align: center;
+}
+.locationContents ul.main li img {
+	width: 100%;
+	margin-bottom: 20px;
+}
+/*
+.locationContents ul.main li:nth-child(2) {
+	padding: 0 90px;
+	width: auto;
+}
+*/
+.locationContents ul.main li .name {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 19px;
+}
+.locationContents ul.main li .address {
+	display: block;
+	line-height: 175%;
+	margin-bottom: 20px;
+	font-size: 13px;
+}
+.locationContents ul.main li .map {
+	display: block;
+	bottom: 0;
+	font-size: 11px;
+	font-weight: 300;
+	color: #8A8A8A;
+	background: url(../img/location/map_icon.png) no-repeat left 60px center;
+	width: 75px;
+	text-align: left;
+	margin: 0 auto;
+}
+
+.stockistContents .row {
+	max-width: 850px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+.stockistContents h3 {
+	text-align: center;
+	margin-bottom: 50px;
+}
+.stockistContents h4 {
+	font-size: 1.375rem;
+	margin: 20px 0 10px;
+}
+.stockistContents h5 {
+	font-size: 14px;
+	margin: 10px 0;
+	color: #8A8A8A;
+}
+.stockistContents ul {
+	width: 100%;
+	border-right: 1px solid #A5A5A5;
+}
+.stockistContents ul li {
+	float: left;
+	width: 50%;
+	display: block;
+	padding: 0 0 20px 30px;
+	border-top: none;
+}
+.stockistContents ul li:nth-child(2n+1) {
+	border-left: 1px solid #A5A5A5;
+	border-right: 1px solid #A5A5A5;
+	clear: both;
+}
+.stockistContents ul li .name {
+	display: block;
+	margin-bottom: 8px;
+	font-size: 15px;
+}
+.stockistContents ul li .address {
+	display: block;
+	line-height: 175%;
+	font-size: 13px;
+}
+a.anchor {
+	display: block;
+	height: 10px;
+	margin-top: -80px;
+	padding-top: 80px;
+}
+
+@media only screen and (max-width: 40.063em){
+	.locationContents .row {
+		padding: 0 6.25% 50px;
+	}
+	.locationContents h2, 
+	.stockistContents h3 {
+		text-align: left;
+		margin-bottom: 10px;
+	}
+	.locationContents ul.menu {
+		clear: both;
+		width: 100%;
+		margin-bottom: 10px;
+		left: 0;
+	}
+	.locationContents ul.menu li {
+		left: 0;
+	}
+	.locationContents ul.main {
+		left: 0;
+		width: 100%;
+	}
+	.locationContents ul.main li {
+		clear: both;
+		width: 100%;
+		padding: 10px 0;
+		border-top: 1px solid #A5A5A5;
+		left: 0;
+		text-align: left;
+	}
+	.locationContents ul.main li:nth-child(2) {
+		clear: both;
+		padding: 10px 0;
+		width: 100%;
+		left: 0;
+	}
+	.locationContents ul.main li:last-child, 
+	.stockistContents ul li:last-child {
+		border-bottom: 1px solid #A5A5A5;
+	}
+	.locationContents ul.main li .map {
+		margin: 0;
+	}
+	.stockistContents .row {
+		padding: 0 6.25%;
+	}
+	.stockistContents ul {
+		border-right: none;
+	}
+	.stockistContents ul li {
+		clear: both;
+		width: 100%;
+		padding: 10px 0;
+		border-top: 1px solid #A5A5A5;
+	}
+	.stockistContents ul li:nth-child(2n+1) {
+		border-left: none;
+		border-right: none;
+	}
+	a.anchor {
+		margin-top: -70px;
+		padding-top: 70px;
+	}
+	.stockistContents ul.online li .name {
+		margin-bottom: 0;
+		font-size: 14px;
+	}
+}

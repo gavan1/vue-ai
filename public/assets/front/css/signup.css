@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+@media only screen and (max-width: 1254px){
+
+	.mainContentsInner {
+	}
+
+	.sp-mainContentsInner{
+		display: initial !important;
+	}
+
+	.sp-mainContentsInner .mainContentsInner {
+		display: initial !important;
+	}
+
+	.mainContents {
+		min-height:450px;
+		padding:0;
+		margin:0 3%;
+		width:94% !important;
+	}
+
+	.formTable .inputRow .inputColInner {
+		margin-left:0 !important;
+		line-height:1.5 !important;
+	}
+
+	.formTable .inputRow .inputHead {
+		float:none !important;
+		margin-right:0 !important;
+		width: 100% !important;
+		padding:0 !important;
+		margin-bottom:7px;
+	}
+	.formTable .inputRow .inputHead br{
+		display:none;
+	}
+	.formTable .inputRow .inputHead .inputLabel,
+	.formTable .gray-form .inputRow .inputHead .inputLabel {
+		width: 100%;
+	}
+
+	.member-title-wrap{
+		width:100%;
+		float: left;
+		text-align: center;
+	}
+
+	.step-title-wrap{
+		width:100%;
+		float: right;
+		text-align: center;
+	}
+
+	.stepListWrapper {
+		margin: 0;
+		width: 60%;
+		height: 100px;
+		float: initial;
+		margin: 0 auto;
+	}
+	.stepListWrapper li {
+		height:inherit;
+		margin-bottom:0;
+		font-size: 12px;
+		font-size: 1.2rem;
+		font-weight: bold;
+		padding:8px 0 13px;
+		text-align:center;
+		width:30%;
+		vertical-align: middle;
+	}
+	.stepListWrapper li:before {
+		font-size: 20px;
+		font-size: 2.0rem;
+		margin-bottom:5px;
+	}
+
+	.formTable .form-content{
+		float:none;
+		width:100%
+	}
+
+	.formWrapper.mainContents{
+		font-size:14px;
+		font-size:1.4rem;
+		padding-top: 40%;
+	}
+}
